@@ -12,7 +12,7 @@ public interface EmployeeService {
 
     public List<EmployeeDto> getEmployees();
 
-    public EmployeeDto updateEmployee(Long id, EmployeeDto employeeDto);
+    public EmployeeDto updateEmployee(Long id, EmployeeDto updatedEmployee);
 
     public EmployeeDto deleteEmployee(Long id);
 }
